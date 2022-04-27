@@ -8,6 +8,7 @@
 body {
     background-color: black;
     color: white;
+    font-size: 12px;
 }
 
 .bar-up {
@@ -19,10 +20,9 @@ body {
 
 .bg-grey {
     background-color: gray;
-    font-size: 12px;
     opacity: 0.8;
     border-radius: 2px;
-    padding: 2px;
+    padding: 4px;
 }
 
 .main-section {
@@ -43,11 +43,52 @@ body {
 
 .absolute {
     position: absolute;
-    bottom: 3px;
+    bottom: 2px;
     padding: 5px 2px;
 }
 
 .bar-down {
     display: flex;
     justify-content: space-between;
+    background-color: #222222;
+    padding: 10px;
+}
+
+.mic-video {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+.block {
+    padding-top: 5px;
+    display: block;
+}
+
+.room-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon-green {
+    color: #47c800;
+}
+
+.end {
+    background-color: #4a4a4a;
+    color: red;
+    padding: 20px 10px;
 }
